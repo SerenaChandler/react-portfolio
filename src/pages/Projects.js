@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 
 const Projects = () => {
   return (
-    <div id="projects" >
+    <div id="projects" style={{  background: "black", paddingBottom: 50 }}>
       
-      <h1 style={{ color: "grey", textAlign: "center" }}>
+      <h1 style={{ color: "white", textAlign: "center", paddingBottom: 50, paddingTop: 50 }}>
         Portfolio
       </h1>
 
@@ -15,7 +15,7 @@ const Projects = () => {
         {projects.map((project) => (
           <Card
             className="col-sm-12 col-md-6 col-lg-4"
-            style={{ width: "28rem", background: "grey", margin: "auto" }}
+            style={{ width: "24rem", background: "grey", margin: "auto", paddingTop: 10 }}
           >
             <Card.Img variant="top" src={project.image} />
             <Card.Body>
