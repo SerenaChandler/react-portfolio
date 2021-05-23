@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Password Generator",
+    "image": "",
+    "link": "https://serenachandler.github.io/Password/",
+    "repo": "https://github.com/SerenaChandler/Password",
+    "desc": ""
+  },
+  {
+    "title": "Expedition Apetite",
+    "image": "",
+    "link": "https://serenachandler.github.io/Project1/",
+    "repo": "https://github.com/SerenaChandler/Project1",
+    "desc": ""
+  },
+  {
+    "title": "Emomii: Mood Tracker",
+    "image": "",
+    "link": "https://emomii.herokuapp.com/",
+    "repo": "https://github.com/SerenaChandler/Project2",
+    "desc": ""
+  },
+  {
+    "title": "Employee Directory",
+    "image": "",
+    "link": "https://serenaemployeedirectory.netlify.app/",
+    "repo": "https://github.com/SerenaChandler/employee-Directory",
+    "desc": ""
+  },
+  {
+    "title": "Memory Game",
+    "image": "",
+    "link": "https://serenachandler.github.io/memory-game/",
+    "repo": "https://github.com/SerenaChandler/memory-game",
+    "desc": ""
+  }
+]
