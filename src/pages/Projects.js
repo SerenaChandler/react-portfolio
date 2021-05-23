@@ -22,10 +22,10 @@ const Projects = () => {
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.desc}</Card.Text>
               <a href={project.link} target="_blank">
-                <Button style={{  background: "grey", color: "black" }} variant="primary">See Project</Button>{" "}
+                <Button style={{  background: "grey", color: "black", borderColor: "black" }} variant="primary">See Project</Button>{" "}
               </a>
               <a href={project.repo} target="_blank">
-                <Button style={{  background: "grey", color: "black" }} variant="primary">See Repository</Button>{" "}
+                <Button style={{  background: "grey", color: "black", borderColor: "black"  }} variant="primary">See Repository</Button>{" "}
               </a>
             </Card.Body>
           </Card>
