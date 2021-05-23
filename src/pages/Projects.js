@@ -6,10 +6,16 @@ import Button from "react-bootstrap/Button"
 const Projects = () => {
 
   return (
+    <section id="projects" style={{ background: "black" }}>
 
-    projects.map((project) => 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
+      <h1 className="section-title" style={{ color: "grey" }}>
+        Portfolio
+      </h1>
+
+
+    {projects.map((project) =>  
+<Card  style={{ width: '28rem', background: "grey" }}>
+  <Card.Img variant="top" src={project.image} />
   <Card.Body>
     <Card.Title>{project.title}</Card.Title>
     <Card.Text>
@@ -19,7 +25,9 @@ const Projects = () => {
    <a href={project.repo}target="_blank" ><Button variant="primary">See Repository</Button> </a> 
   </Card.Body>
 </Card>
-    )
+    )}
+
+    </section>
   )
 }
 
