@@ -8,6 +8,7 @@ import Homepage from "./pages/Home";
 // Components
 import Footer from "./components/Footer";
 import Navbar from "./components/Nav";
+import Resume from "./components/Resume"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Homepage />
       <Projects />
+      <Resume/>
       <Footer />
     </div>
   );
