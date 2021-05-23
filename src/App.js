@@ -4,6 +4,7 @@ import "./App.css";
 // Pages
 import Projects from "./pages/Projects";
 import Homepage from "./pages/Home";
+import Aboutme from "./pages/Aboutme"
 
 // Components
 import Footer from "./components/Footer";
@@ -15,6 +16,7 @@ function App() {
     <div>
       <Navbar />
       <Homepage />
+      <Aboutme/>
       <Projects />
       <Resume/>
       <Footer />
