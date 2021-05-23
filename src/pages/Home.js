@@ -4,15 +4,11 @@ const Homepage = () => {
   return (
     <div className="row" style={{ background: "grey" }}>
       <div className="text-center">
-        <h1 style={{ color: "white" }}>
-          Serena Chandler
-        </h1>
+        <h1 style={{ color: "white" }}>Serena Chandler</h1>
 
         <img src="./images/transDev.png" />
 
-        <h2 style={{ color: "white", paddingBottom: 250 }}>
-          Web Developer
-        </h2>
+        <h2 style={{ color: "white", paddingBottom: 250 }}>Web Developer</h2>
       </div>
     </div>
   );
