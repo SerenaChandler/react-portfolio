@@ -1,12 +1,34 @@
 import react from "react";
-import projects from "../projects.json";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 
-const Projects = () => {
+const Aboutme = () => {
   return (
-   <h1>test</h1>
+    <section className="text-center" style={{ background: "#4f4f4f", paddingBottom: 50 }}>
+      <container>
+        <div>
+          <h1     style={{
+          color: "white",
+          paddingBottom: 50,
+          paddingTop: 50,
+        }}>About Me</h1>
+          <h3     style={{
+          color: "white",
+          
+
+        }}>
+            {" "}
+            Hello, my name is Serena Chandler and I am a full stack web
+            developer. I got my certification from the UC Bekeley extension
+            program. I'm proficient in HTML, CSS, Javascript, SQL, and React.
+          </h3>
+        </div>
+
+        <img
+          style={{ width: "14rem", borderWidth: 2, borderColor: "black", border: "solid", borderRadius: 5 }}
+          src="./images/selfie-for-portfolio.jpg"
+        />
+      </container>
+    </section>
   );
 };
 
-export default Projects;
+export default Aboutme;
