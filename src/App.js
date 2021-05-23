@@ -6,16 +6,16 @@ import Projects from "./pages/Projects";
 import Homepage from "./pages/Home";
 
 // Components
-import Footer from "./components/Footer"
-import Navbar from "./components/Nav"
+import Footer from "./components/Footer";
+import Navbar from "./components/Nav";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Homepage />
-      <Navbar/>
       <Projects />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
