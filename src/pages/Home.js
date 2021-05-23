@@ -2,7 +2,7 @@ import React from "react";
 
 const Homepage = () => {
   return (
-    <div className="row" style={{ background: "grey" }}>
+    <div id="home" className="row" style={{ background: "grey" }}>
       <div className="text-center">
         <h1 style={{ color: "white", paddingTop: 200 }}>Serena Chandler</h1>
 

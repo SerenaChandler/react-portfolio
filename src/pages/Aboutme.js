@@ -2,7 +2,7 @@ import react from "react";
 
 const Aboutme = () => {
   return (
-    <section className="text-center" style={{ background: "#4f4f4f", paddingBottom: 50 }}>
+    <section id="about" className="text-center" style={{ background: "#4f4f4f", paddingBottom: 50 }}>
       <container>
         <div>
           <h1     style={{
