@@ -1,16 +1,23 @@
-import React, {ReactPDF} from "react";
-
-
-
+import React, { ReactPDF } from "react";
 
 function Resume() {
   return (
-//     <ReactPDF
-//   file={{
-//     url: 'https://docs.google.com/document/d/1XGZ7ON-BJgujcqzu3jncRlvpYRKOCyTSbN2RRBVM4lM/edit?usp=sharing'
-//   }}
-// />
-<h1>help</h1>
+    <div id="home" className="row" style={{ background: "grey" }}>
+      <div className="text-center">
+        <div id="resume">
+          <h1 class="section">Resume</h1>
+          <div>
+            <img src="./images/resume.png" />
+
+            <h2>
+              <a href="./images/currentResume.pdf" target="_blank" download>
+                click here to download
+              </a>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
