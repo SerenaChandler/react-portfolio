@@ -1,37 +1,37 @@
 [
   {
     "title": "Password Generator",
-    "image": "",
+    "image": "./images/PGpreview.png",
     "link": "https://serenachandler.github.io/Password/",
     "repo": "https://github.com/SerenaChandler/Password",
-    "desc": ""
+    "desc": "A simple application that takes in user input and generates a password within given parameters"
   },
   {
     "title": "Expedition Apetite",
-    "image": "",
+    "image": "./images/EApreview.png",
     "link": "https://serenachandler.github.io/Project1/",
     "repo": "https://github.com/SerenaChandler/Project1",
-    "desc": ""
+    "desc": "An Application that helps users plan trips by allowing them to search for restaurants within areas they intend to visit"
   },
   {
     "title": "Emomii: Mood Tracker",
-    "image": "",
+    "image": "./images/EMpreview.png",
     "link": "https://emomii.herokuapp.com/",
     "repo": "https://github.com/SerenaChandler/Project2",
-    "desc": ""
+    "desc": "An application that allows users to journal their moods, and see real time graphs charting out their past entries."
   },
   {
     "title": "Employee Directory",
-    "image": "",
+    "image": "./images/EDpreview.png",
     "link": "https://serenaemployeedirectory.netlify.app/",
     "repo": "https://github.com/SerenaChandler/employee-Directory",
-    "desc": ""
+    "desc": "A mockup of an employee directory that allows the user to search for eomployees by name, and sort by first name."
   },
   {
     "title": "Memory Game",
-    "image": "",
+    "image": "./images/MGpreview.png",
     "link": "https://serenachandler.github.io/memory-game/",
     "repo": "https://github.com/SerenaChandler/memory-game",
-    "desc": ""
+    "desc": "A memory game that requires the user to click on all the different images, without cliking on the same one twice."
   }
 ]
