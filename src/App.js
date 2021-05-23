@@ -1,25 +1,16 @@
-import React from "react"
-import './App.css';
-
-
-
-
-
+import React from "react";
+import "./App.css";
 
 // Pages
 import Projects from "./pages/Projects";
-
-
-
-
-
-
-
-
+import Homepage from "./pages/Home";
 
 function App() {
   return (
-  <Projects/>
+    <div>
+      <Homepage />
+      <Projects />
+    </div>
   );
 }
 
