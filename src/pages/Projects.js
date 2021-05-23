@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 
 const Projects = () => {
   return (
-    <div id="projects" style={{ background: "#3a3a3a", paddingBottom: 50 }}>
+    <div id="projects" style={{ background: "#342430", paddingBottom: 50 }}>
       <h1
         style={{
           color: "white",

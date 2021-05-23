@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
 
-<footer class="text-center py-5"> Serena Chandler</footer>
+<footer class="text-center py-3"> Serena Chandler</footer>
 
     </div>
     
