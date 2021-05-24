@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <div id="home" className="row" style={{ background: "grey" }}>
       <div className="text-center">
-        <h1 style={{ color: "white", paddingTop: 200 }}>Serena Chandler</h1>
+        <h1 style={{ color: "white", paddingTop: 150 }}>Serena Chandler</h1>
 
         <img src="./images/transDev.png" />
 

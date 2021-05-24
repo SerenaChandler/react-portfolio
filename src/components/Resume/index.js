@@ -5,9 +5,13 @@ function Resume() {
     <div id="home" className="row" style={{ background: "grey" }}>
       <div className="text-center">
         <div id="resume">
-          <h1 class="section">Resume</h1>
+          <h1    style={{
+          color: "white",
+          paddingBottom: 50,
+          paddingTop: 50,
+        }} class="section">Resume</h1>
           <div>
-            <img src="./images/resume.png" />
+            <img className="img-fluid mx-auto d-block" src="./images/resume.png" />
 
             <h2>
               <a style={{ color: "white" }}  className="text-decoration-none" href="./images/currentResume.pdf" target="_blank" download>
