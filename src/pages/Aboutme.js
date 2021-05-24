@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutme = () => {
   return (
-    <section id="about" className="text-center" style={{ background: "#4f4f4f", paddingBottom: 50 }}>
+    <section id="about" className="text-center" style={{ background: "#242424", paddingBottom: 50 }}>
       <container>
         <div>
           <h1     style={{
@@ -23,7 +23,7 @@ const Aboutme = () => {
         </div>
 
         <img
-          style={{ width: "14rem", borderWidth: 2, borderColor: "black", border: "solid", borderRadius: 5 }}
+          style={{ width: "14rem", borderWidth: 2, borderColor: "gold", border: "solid", borderRadius: 5 }}
           src="./images/selfie-for-portfolio.jpg"
         />
       </container>
