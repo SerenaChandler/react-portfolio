@@ -10,7 +10,7 @@ function Resume() {
             <img src="./images/resume.png" />
 
             <h2>
-              <a href="./images/currentResume.pdf" target="_blank" download>
+              <a style={{ color: "white" }}  className="text-decoration-none" href="./images/currentResume.pdf" target="_blank" download>
                 click here to download
               </a>
             </h2>

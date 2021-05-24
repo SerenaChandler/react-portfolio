@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import projects from "../projects.json";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
