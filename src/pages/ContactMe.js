@@ -23,6 +23,7 @@ function Contact() {
           }}
           href="https://github.com/SerenaChandler"
           target="_blank"
+          rel="noreferrer"
         >
           GitHub
           </a>
@@ -36,6 +37,7 @@ function Contact() {
           }}
           href="https://www.linkedin.com/in/serena-chandler-b62a39204/"
           target="_blank"
+          rel="noreferrer"
         >
           Linkedin
           </a>
