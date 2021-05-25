@@ -14,30 +14,45 @@ function Contact() {
         Contact Me
       </h1>
       <div className="row">
-        <h2 className="col"
+         <a
+          className="col text-decoration-none"
           style={{
             color: "white",
             textAlign: "center",
+            fontSize: 30
           }}
+          href="https://github.com/SerenaChandler"
+          target="_blank"
         >
           GitHub
-        </h2>
-        <h2 className="col"
+          </a>
+        
+         <a
+          className="col text-decoration-none"
           style={{
             color: "white",
             textAlign: "center",
+            fontSize: 30
           }}
+          href="https://www.linkedin.com/in/serena-chandler-b62a39204/"
+          target="_blank"
         >
           Linkedin
-        </h2>
-        <h2 className="col"
+          </a>
+        
+        <a
+          className="col text-decoration-none"
           style={{
             color: "white",
             textAlign: "center",
+            fontSize: 30
           }}
+          href="mailto:serenachandler2019@gmail.com"
+          target="_blank" rel="noreferrer"
         >
           Email
-        </h2>
+          </a>
+        
       </div>
     </div>
   );
