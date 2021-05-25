@@ -34,14 +34,19 @@ const Projects = () => {
             }}
           >
             <Card.Img
-              style={{ border: "solid", borderColor: "black", borderWidth: 2 }}
+              style={{
+                border: "solid",
+                borderColor: "black",
+                borderWidth: 2,
+                borderRadius: 5,
+              }}
               variant="top"
               src={project.image}
             />
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.desc}</Card.Text>
-              <a href={project.link} target="_blank">
+              <a href={project.link} rel="noreferrer" target="_blank">
                 <Button
                   style={{
                     background: "grey",
@@ -54,7 +59,7 @@ const Projects = () => {
                 </Button>{" "}
               </a>
 
-              <a href={project.repo} target="_blank">
+              <a href={project.repo} rel="noreferrer" target="_blank">
                 <Button
                   style={{
                     background: "grey",

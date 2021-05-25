@@ -24,7 +24,7 @@ const Aboutme = () => {
 
         <img
           style={{ width: "14rem", borderWidth: 2, borderColor: "gold", border: "solid", borderRadius: 5 }}
-          src="./images/selfie-for-portfolio.jpg"
+          src="./images/selfie-for-portfolio.jpg" alt="selfie"
         />
       </container>
     </section>

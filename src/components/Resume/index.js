@@ -1,4 +1,4 @@
-import React, { ReactPDF } from "react";
+import React from "react";
 
 function Resume() {
   return (
@@ -18,7 +18,7 @@ function Resume() {
                 click here to download
               </a>
 
-              <img  style={{  borderWidth: 3, borderColor: "gold", border: "solid", borderRadius: 5 }} className="img-fluid mx-auto d-block" src="./images/resume.png" />
+              <img alt="resume" style={{  borderWidth: 3, borderColor: "gold", border: "solid", borderRadius: 5 }} className="img-fluid mx-auto d-block" src="./images/resume.png" />
             </h2>
           </div>
         </div>
