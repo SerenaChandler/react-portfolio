@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+A new build of my portfolio made with react
 
-In the project directory, you can run:
+## Languages Used
+-React
 
-### `npm start`
+-React-Bootstrap
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-Javascript
+## Preview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](site.png)
 
-### `npm test`
+## Code Snippets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dynamically creating Cards for my past projects using react-bootstrap
+```
+      {projects.map((project) => (
+          <Card
+            className="col-sm-12 col-md-6 col-lg-4"
+            style={{
+              width: "24rem",
+              borderWidth: 2,
+              borderColor: "gold",
+              border: "solid",
+              borderRadius: 5,
+              background: "grey",
+              margin: "auto",
+              marginTop: 10,
+              paddingTop: 10,
+            }}
+          >
+            <Card.Img
+              style={{
+                border: "solid",
+                borderColor: "black",
+                borderWidth: 2,
+                borderRadius: 5,
+              }}
+              variant="top"
+              src={project.image}
+            />
+            <Card.Body>
+              <Card.Title>{project.title}</Card.Title>
+              <Card.Text>{project.desc}</Card.Text>
+              <a href={project.link} rel="noreferrer" target="_blank">
+                <Button
+                  style={{
+                    background: "grey",
+                    color: "black",
+                    borderColor: "black",
+                  }}
+                  variant="primary"
+                >
+                  See Project
+                </Button>{" "}
+              </a>
 
-### `npm run build`
+              <a href={project.repo} rel="noreferrer" target="_blank">
+                <Button
+                  style={{
+                    background: "grey",
+                    color: "black",
+                    borderColor: "black",
+                  }}
+                  variant="primary"
+                >
+                  See Repository
+                </Button>{" "}
+              </a>
+            </Card.Body>
+          </Card>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Creating a clickable button to download my resume
+```
+          <div>
+            <h2>
+              <a
+                style={{ color: "white" }}
+                className="text-decoration-none"
+                href="./images/currentResume.pdf"
+                target="_blank"
+                download
+              >
+                click here to download
+              </a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+              <img
+                alt="resume"
+                style={{
+                  borderWidth: 3,
+                  borderColor: "gold",
+                  border: "solid",
+                  borderRadius: 5,
+                }}
+                className="img-fluid mx-auto d-block"
+                src="./images/resume.png"
+              />
+            </h2>
+          </div>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## my links
+[Github](https://github.com/SerenaChandler)    
+[Linkedin](https://www.linkedin.com/in/serena-chandler-b62a39204/)    
+[Portfolio](https://serenachandlerportfolio.netlify.app/)
+      
