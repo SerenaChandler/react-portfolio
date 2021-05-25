@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
 
-<footer style={{ background: "#8a0000", color: "white" }} class="text-center py-3"> Serena Chandler</footer>
+<footer style={{ background: "#8a0000", color: "white" }} class="text-center py-3">copyright @ Serena Chandler</footer>
 
     </div>
     
