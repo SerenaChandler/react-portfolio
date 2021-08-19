@@ -20,7 +20,7 @@ function Resume() {
               <a
                 style={{ color: "white" }}
                 className="text-decoration-none"
-                href="./images/resume.pdf"
+                href="./images/serenaResume.pdf"
                 target="_blank"
                 download
               >
