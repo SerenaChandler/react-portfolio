@@ -1,10 +1,10 @@
 [
   {
-    "title": "Password Generator",
-    "image": "./images/PGpreview.png",
-    "link": "https://serenachandler.github.io/Password/",
-    "repo": "https://github.com/SerenaChandler/Password",
-    "desc": "A simple application that takes in user input and generates a password within given parameters"
+    "title": "PantryRaid",
+    "image": "./images/PRpreview.png",
+    "link": "https://pantryraiders.herokuapp.com/home",
+    "repo": "https://github.com/SerenaChandler/PantryRaid",
+    "desc": "React based program designed to find recipes based on currently owned ingredients"
   },
   {
     "title": "Expedition Apetite",
