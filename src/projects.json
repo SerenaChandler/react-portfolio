@@ -4,7 +4,7 @@
     "image": "./images/PRpreview.png",
     "link": "https://pantryraiders.herokuapp.com/home",
     "repo": "https://github.com/SerenaChandler/PantryRaid",
-    "desc": "React based program designed to find recipes based on currently owned ingredients"
+    "desc": "React based program designed to find help users find recipes based on currently owned ingredients"
   },
   {
     "title": "Expedition Apetite",
